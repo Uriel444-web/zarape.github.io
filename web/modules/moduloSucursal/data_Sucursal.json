@@ -1,0 +1,38 @@
+[    
+    {
+        "foto":"../../recursos/elzarapeLogo.jpeg",
+        "numero_unico_sucursal":"123A",
+        "nombre": "CentroMax", 
+        "calleYNum": "Blvd Aeropuerto 2518", 
+        "colonia" : "Jardines de Jerez ",
+        "telefono":"4881219101", 
+        "GPS" : "566788,665433",
+        "horario" :"10-8",
+        "pagWeb":"www.facebook.com", 
+        "estatus": "Activo"
+    },
+    {
+        "foto":"../../recursos/elzarapeLogo.jpeg",
+        "numero_unico_sucursal":"8d10",
+        "nombre": "Altacia", 
+        "calleYNum": "Blvd Aeropuerto 104", 
+        "colonia" : "Cerrito de Jerez",
+        "telefono":"4770000456", 
+        "GPS" : "569888,665883",
+        "horario" :"10-8",
+        "pagWeb":"www.altacia.com", 
+        "estatus": "Activo"
+    },
+    {
+        "foto":"../../recursos/elzarapeLogo.jpeg",
+        "numero_unico_sucursal":"8d11",
+        "nombre": "Plaza Mayor", 
+        "calleYNum": "juan Alonso de torres 2002", 
+        "colonia" : "Valle del campestre",
+        "telefono":"4770000789", 
+        "GPS" : "561238,6643283",
+        "horario" :"10-8",
+        "pagWeb":"www.plazamayor.com", 
+        "estatus": "Activo"
+    }
+]

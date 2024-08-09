@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucursales</title>
+    <link href="style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="style/css/mycss.css" rel="stylesheet" type="text/css" />
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Columna de botones -->
+            <div class="col-lg-4">
+                <div class="card text-center mb-3">
+                    <div class="card-header">
+                        Gestión de Sucursales
+                    </div>
+                    <div class="card-body" style="background-color: white;">
+                        <div class="d-flex flex-column justify-content-between" style="height: 100%;">
+                            <div class="d-flex flex-column">
+                                <button class="mt-2 btn btn-lg" id="btnAddSucursal"
+                                    style="background-color: #faaf08;">Registrar</button>
+                                <button class="mt-2 btn btn-lg" id="btnCleanSucursal"
+                                    style="background-color: #faaf08;">Limpiar</button>
+                                <button class="mt-2 btn btn-lg disabled" id="btnUpdateSucursal"
+                                    style="background-color: #faaf08;">Actualizar</button>
+                                <button class="mt-2 btn btn-lg disabled" id="btnDeleteSucursal"
+                                    style="background-color: #faaf08;">Eliminar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna de formulario -->
+            <div class="col-lg-8">
+                <div id="contenedorPrincipal">
+                    <div class="card">
+                        <div class="card-body bg-light">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="txtImg" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Url Foto:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtImg" placeholder="0123"
+                                            style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="txtNumUnico" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Id Sucursal:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtNumUnico" placeholder="0123"
+                                            style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="txtNombre" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Nombre:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtNombre" placeholder="nombre sucursal"
+                                            style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="txtCalleYNum" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Calle y numero:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtCalleYNum" placeholder="xxxxx 000"
+                                            style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="txtColonia" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Colonia: </label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtColonia"
+                                            placeholder="Colonia" style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="txtTelefono" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">Telefono: </label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtTelefono"
+                                            placeholder="xxx-xxx-xxxx" style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="txtGPS" class="col-sm-4 col-form-label rounded"
+                                        style="background-color: #fa812f;">GPS:</label>
+                                    <div class="col-sm-8">
+                                        <input type="numero" class="form-control" id="txtGPS"
+                                             style="background-color: bisque;">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                  <label for="txtHorario" class="col-sm-4 col-form-label rounded"
+                                      style="background-color: #fa812f;">Horario:</label>
+                                  <div class="col-sm-8">
+                                      <input type="numero" class="form-control" id="txtHorario"
+                                          placeholder="10:00-13:00" style="background-color: bisque;">
+                                  </div>
+                              </div>
+                              <br>
+                              <div class="form-group row">
+                                <label for="txtPagWeb" class="col-sm-4 col-form-label rounded"
+                                    style="background-color: #fa812f;">Pagina web:</label>
+                                <div class="col-sm-8">
+                                    <input type="numero" class="form-control" id="txtPagWeb"
+                                        placeholder="www.pagweb.com" style="background-color: bisque;">
+                                </div>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="card col-lg-12 p-4 mt-4">
+                    <div class="d-flex m-3">
+                        <label for="txtBusquedaSucursal" class="form-label mx-3">Buscar Sucursal:</label>
+                        <input type="text" id="txtBusquedaSucursal" class="form-control" />
+                        <button class="btn btn-warning mx-2" id="btnSearchSucursal">Buscar</button>
+                    </div>
+                    <table class="table table-hover bg-warning">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>img<img src="${sucursal.foto}" alt=""></th>
+                              <th>idSucursal</th>
+                              <th>Nombre</th>
+                              <th>Calle y Num</th>
+                              <th>Telefono</th>
+                              <th>GPS</th>
+                              <th>Horario</th>
+                              <th>Url</th>
+                              <th>estatus</th>
+                              
+                            </tr>
+                        </thead>
+                        <tbody id="tblSucursal"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div> 
+    <script src="style/js/main.js" type="text/javascript"></script>
+    <script src="controller_Sucursal.js"></script>
+</body>
+
+</html>

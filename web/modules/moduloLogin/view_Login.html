@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+  
+<div id="contenedorLoogin">
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <form class="w-100 w-md-50 w-lg-25">
+            <div class="mb-3">
+                <label for="Email" class="form-label">Correo Electronico</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">No compartas esta informacion con nadie!.</div>
+            </div>
+            <div class="mb-3">
+                <label for="Password class=form-label">Password</label>
+                <input type="password" class="form-control" id="Password">
+            </div>
+            <button class="btn btn-primary" id="BtnRegistrar">Submit</button>
+        </form>
+    </div>
+</div>
+      <script src="controller_Login.js"></script>
+</body>
+</html>

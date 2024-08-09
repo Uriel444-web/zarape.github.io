@@ -1,0 +1,29 @@
+[    
+    {
+        "nombre": "CentroMax", 
+        "calleYNum": "Blvd Aeropuerto 2518", 
+        "colonia" : "Jardines de Jerez ", 
+        "GPS" : "566788,665433", 
+        "telefono" : "4770000123", 
+        "numero_unico" : "8d09",
+        "estatus": "Activo"
+    },
+    {
+        "nombre": "Altacia", 
+        "calleYNum": "Blvd Aeropuerto 104", 
+        "colonia" : "Cerrito de Jerez ", 
+        "GPS" : "569888,665883", 
+        "telefono" : "4770000456", 
+        "numero_unico" : "8d10",
+        "estatus": "Activo"
+    },
+    {
+        "nombre": "Plaza Mayor", 
+        "calleYNum": "juan Alonso de torres 2002", 
+        "colonia" : "Valle del campestre  ", 
+        "GPS" : "561238,6643283", 
+        "telefono" : "4770000789", 
+        "numero_unico" : "8d11",
+        "estatus": "Activo"
+    }
+]

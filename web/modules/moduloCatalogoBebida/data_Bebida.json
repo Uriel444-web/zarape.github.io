@@ -1,0 +1,74 @@
+[
+    {
+        "idBebida": "1113",
+        "nombreBebida": "Limonada",
+        "categoria": "Bebidas refrescantes",
+        "descripcion": "Limonada fresca y dulce, ideal para el verano.",
+        "foto": "limonada.jpg",
+        "precio": "3.50",
+        "estatus": "Activo"
+    },
+    {
+        "idBebida": "1114",
+        "nombreBebida": "Cerveza Artesanal",
+        "categoria": "Alcohólicas",
+        "descripcion": "Cerveza elaborada con ingredientes naturales, con un sabor único.",
+        "foto": "cerveza_artesanal.jpg",
+        "precio": "5.00",
+        "estatus": "Activo"
+    },
+    {
+        "idBebida": "1115",
+        "nombreBebida": "Mojito",
+        "categoria": "Cocteles",
+        "descripcion": "Refrescante coctel de ron, menta y limón.",
+        "foto": "mojito.jpg",
+        "precio": "6.00",
+        "estatus": "Activo"
+    },
+    {
+        "idBebida": "1116",
+        "nombreBebida": "Té Helado",
+        "categoria": "Bebidas frías",
+        "descripcion": "Té helado natural, perfecto para cualquier ocasión.",
+        "foto": "te_helado.jpg",
+        "precio": "2.50",
+        "estatus": "Activo"
+    },
+    {
+        "idBebida": "1117",
+        "nombreBebida": "Batido de Fresa",
+        "categoria": "Bebidas nutritivas",
+        "descripcion": "Batido cremoso de fresas frescas y leche.",
+        "foto": "batido_fresa.jpg",
+        "precio": "4.00",
+        "estatus": "Activo"
+    },
+    {
+        "idBebida": "1118",
+        "nombreBebida": "Agua Mineral",
+        "categoria": "Bebidas simples",
+        "descripcion": "Agua mineral con gas, refrescante y saludable.",
+        "foto": "agua_mineral.jpg",
+        "precio": "1.50",
+        "estatus": "Activo"
+    },
+    {
+        "idBebida": "1119",
+        "nombreBebida": "Smoothie de Mango",
+        "categoria": "Bebidas frutales",
+        "descripcion": "Smoothie suave y dulce de mango tropical.",
+        "foto": "smoothie_mango.jpg",
+        "precio": "5.50",
+        "estatus": "Activo"
+    },
+    {
+        "idBebida": "1120",
+        "nombreBebida": "Café Frío",
+        "categoria": "Bebidas calientes",
+        "descripcion": "Café preparado frío, ideal para los amantes del café.",
+        "foto": "cafe_frio.jpg",
+        "precio": "3.00",
+        "estatus": "Activo"
+    }
+]
