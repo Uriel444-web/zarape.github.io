@@ -1,21 +1,21 @@
 [
     {
-        "idUsuario":"111A",
+        "idUsuario":"1",
         "nombreUsuario":"Uriel_243",
         "contrasena":"uriel123"
     },
     {
-        "idUsuario":"111B",
+        "idUsuario":"2",
         "nombreUsuario":"Karla_mtz",
         "contrasena":"karlamtz233"
     },
     {
-        "idUsuario":"111C",
+        "idUsuario":"3",
         "nombreUsuario":"ZavalaW",
         "contrasena":"urielzavala"
     },
     {
-        "idUsuario":"111D",
+        "idUsuario":"4",
         "nombreUsuario":"JonaCoca",
         "contrasena":"jona123"
     }

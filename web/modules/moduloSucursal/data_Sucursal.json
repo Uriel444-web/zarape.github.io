@@ -1,7 +1,7 @@
 [    
     {
         "foto":"../../recursos/elzarapeLogo.jpeg",
-        "numero_unico_sucursal":"123A",
+        "numero_unico_sucursal":"1",
         "nombre": "CentroMax", 
         "calleYNum": "Blvd Aeropuerto 2518", 
         "colonia" : "Jardines de Jerez ",
@@ -13,7 +13,7 @@
     },
     {
         "foto":"../../recursos/elzarapeLogo.jpeg",
-        "numero_unico_sucursal":"8d10",
+        "numero_unico_sucursal":"2",
         "nombre": "Altacia", 
         "calleYNum": "Blvd Aeropuerto 104", 
         "colonia" : "Cerrito de Jerez",
@@ -25,7 +25,7 @@
     },
     {
         "foto":"../../recursos/elzarapeLogo.jpeg",
-        "numero_unico_sucursal":"8d11",
+        "numero_unico_sucursal":"3",
         "nombre": "Plaza Mayor", 
         "calleYNum": "juan Alonso de torres 2002", 
         "colonia" : "Valle del campestre",
