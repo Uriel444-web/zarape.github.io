@@ -64,9 +64,9 @@ function loadTabla() {
 
 function selectUsuario(index) {
     let usuario = Usuarios[index];
-    document.getElementById("txtIdUsuario").value = idUsuario;
-    document.getElementById("txtNombreUsuario").value = nombreUsuario;
-    document.getElementById("txtContrasena").value = contrasena;
+    document.getElementById("txtIdUsuario").disabled=true;
+    document.getElementById("txtNombreUsuario").value = Usuarios[index].nombreUsuario;
+    document.getElementById("txtContrasena").value = Usuarios[index].contrasena;
 
     document.getElementById("btnUpdateUsuario").classList.remove("disabled");
     document.getElementById("btnDeleteUsuario").classList.remove("disabled");
@@ -104,11 +104,11 @@ function updateUsuario(){
         nombreUsuario,
         contrasena;
  
-    idUsuario = document.getElementById("txtIdUsuario").value;
+    idUsuario = document.getElementById("txtIdUsuario").disabled=true;
     nombreUsuario = document.getElementById("txtNombreUsuario").value;
     contrasena = document.getElementById("txtContrasena").value;
     let usuario = {};
-    usuario.idUsuario="RF01";
+    // usuario.idUsuario=idUsuario;
     usuario.nombreUsuario = nombreUsuario;
     usuario.contrasena = contrasena;
     Usuarios[indexUsuarioSeleccionado] = usuario;

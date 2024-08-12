@@ -1,6 +1,6 @@
 [    
     {
-        "foto":"../../recursos/elzarapeLogo.jpeg",
+        "foto":"centromax.jpeg",
         "numero_unico_sucursal":"1",
         "nombre": "CentroMax", 
         "calleYNum": "Blvd Aeropuerto 2518", 
@@ -8,11 +8,11 @@
         "telefono":"4881219101", 
         "GPS" : "566788,665433",
         "horario" :"10-8",
-        "pagWeb":"www.facebook.com", 
+        "pagWeb":"www.centromax.com", 
         "estatus": "Activo"
     },
     {
-        "foto":"../../recursos/elzarapeLogo.jpeg",
+        "foto":"altacia.jpeg",
         "numero_unico_sucursal":"2",
         "nombre": "Altacia", 
         "calleYNum": "Blvd Aeropuerto 104", 
@@ -24,7 +24,7 @@
         "estatus": "Activo"
     },
     {
-        "foto":"../../recursos/elzarapeLogo.jpeg",
+        "foto":"plazaMayor.jpeg",
         "numero_unico_sucursal":"3",
         "nombre": "Plaza Mayor", 
         "calleYNum": "juan Alonso de torres 2002", 

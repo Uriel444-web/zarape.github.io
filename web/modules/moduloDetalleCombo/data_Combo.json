@@ -1,6 +1,6 @@
 [
     {
-        "idAlimento": "1112",
+        "idAlimento": "1",
         "idBebida": "1113",
         "idCombo": "124A",
         "nombreCombo": "Desayuno Mexicano",
@@ -9,7 +9,7 @@
         "estatus":"Activo"
     },
     {
-        "idAlimento": "1001",
+        "idAlimento": "2",
         "idBebida": "1114",
         "idCombo": "124B",
         "nombreCombo": "Tacos y Cerveza",
@@ -18,7 +18,7 @@
         "estatus":"Activo"
     },
     {
-        "idAlimento": "1002",
+        "idAlimento": "3",
         "idBebida": "1115",
         "idCombo": "124C",
         "nombreCombo": "Enchiladas y Mojito",
@@ -27,7 +27,7 @@
         "estatus":"Activo"
     },
     {
-        "idAlimento": "1003",
+        "idAlimento": "4",
         "idBebida": "1116",
         "idCombo": "124D",
         "nombreCombo": "Chiles en Nogada y Té Helado",
@@ -36,7 +36,7 @@
         "estatus":"Activo"
     },
     {
-        "idAlimento": "1004",
+        "idAlimento": "5",
         "idBebida": "1117",
         "idCombo": "124E",
         "nombreCombo": "Tamales y Batido de Fresa",
@@ -45,7 +45,7 @@
         "estatus":"Activo"
     },
     {
-        "idAlimento": "1005",
+        "idAlimento": "6",
         "idBebida": "1118",
         "idCombo": "124F",
         "nombreCombo": "Pozole y Agua Mineral",

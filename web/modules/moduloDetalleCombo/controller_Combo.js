@@ -68,14 +68,14 @@ function loadTabla() {
     });
 }
 
-function selectCombo(index) {
+export function selectCombo(index) {
     let combo = combos[index];
-    document.getElementById("txtIdAlimento-Combo").value = combo.idAlimento;
-    document.getElementById("txtIdBebida-Combo").value = combo.idBebida;
-    document.getElementById("txtIdCombo").value = combo.idCombo;
-    document.getElementById("txtNombreCombo").value = combo.nombreCombo;
-    document.getElementById("txtDescripcionCombo").value = combo.descripcion;
-    document.getElementById("numPrecioCombo").value = combo.precio;
+    document.getElementById("txtIdAlimento-Combo").value = combos[index].idAlimento;
+    document.getElementById("txtIdBebida-Combo").value = combos[index].idBebida;
+    document.getElementById("txtIdCombo").disabled=true;
+    document.getElementById("txtNombreCombo").value = combos[index].nombreCombo;
+    document.getElementById("txtDescripcionCombo").value = combos[index].descripcion;
+    document.getElementById("numPrecioCombo").value = combos[index].precio;
 
     document.getElementById("btnUpdateCombo").classList.remove("disabled");
     document.getElementById("btnDeleteCombo").classList.remove("disabled");
@@ -123,7 +123,7 @@ function updateCombo(){
  
     idAlimento = document.getElementById("txtIdAlimento-Combo").value;
     idBebida = document.getElementById("txtIdBebida-Combo").value;
-    idCombo = document.getElementById("txtIdCombo").value;
+    idCombo = document.getElementById("txtIdCombo").disabled=true;
     nombreCombo = document.getElementById("txtNombreCombo").value;
     descripcion=document.getElementById("txtDescripcionCombo").value;
     precio=document.getElementById("numPrecioCombo").value;
@@ -148,7 +148,7 @@ function deleteCombo(){
     loadTabla();
 }
 
-function searchCombo(){
+export function searchCombo(){
     let filtro = document.getElementById("txtBusquedaCombo").value;
     let resultados = combos.filter(element => element.nombreCombo === filtro);
     let cuerpo = "";

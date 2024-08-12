@@ -75,17 +75,18 @@ function loadTabla() {
     });
 }
 
-function selectSucursal(index) {
+export function selectSucursal(index) {
     let sucursal = sucursales[index];
     document.getElementById("txtImg").value = sucursal.foto;
-    document.getElementById("txtNumUnico").value = sucursal.numero_unico_sucursal;
-    document.getElementById("txtNombre").value = sucursal.nombre;
-    document.getElementById("txtCalleYNum").value = sucursal.calleYNum;
-    document.getElementById("txtColonia").value = sucursal.colonia;
-    document.getElementById("txtTelefono").value = sucursal.telefono;
-    document.getElementById("txtGPS").value = sucursal.gps;
-    document.getElementById("txtHorario").value = sucursal.horario;
-    document.getElementById("txtPagWeb").value = sucursal.pagWeb;
+    document.getElementById("txtNumUnico").value = sucursales[index].numero_unico_sucursal;
+    document.getElementById("txtNombre").value = sucursales[index].nombre;
+    document.getElementById("txtCalleYNum").value = sucursales[index].calleYNum;
+    document.getElementById("txtColonia").value = sucursales[index].colonia;
+    document.getElementById("txtTelefono").value = sucursales[index].telefono;
+    document.getElementById("txtGPS").value = sucursales[index].gps;
+    document.getElementById("txtHorario").value = sucursales[index].horario;
+    document.getElementById("txtPagWeb").value = sucursales[index].pagWeb;
+    
 
     document.getElementById("btnUpdateSucursal").classList.remove("disabled");
     document.getElementById("btnDeleteSucursal").classList.remove("disabled");
@@ -166,13 +167,13 @@ function deleteSucursal(){
     loadTabla();
 }
 
-function searchSucursal(){
+export function searchSucursal(){
     let filtro = document.getElementById("txtBusquedaSucursal").value;
     let resultados = sucursales.filter(element => element.nombre === filtro);
     let cuerpo = "";
     resultados.forEach(function(sucursal){
         let registro =  
-                '<tr onclick="data-search=('+ sucursales.indexOf(sucursal) +');">'+
+                '<tr onclick="moduloSucursal.selectSucursal('+ sucursales.indexOf(sucursal) +');">'+
                 '<td>' + sucursal.foto + '</td>' +
                 '<td>' + sucursal.numero_unico_sucursal + '</td>' +
                 '<td>' + sucursal.nombre + '</td>' +

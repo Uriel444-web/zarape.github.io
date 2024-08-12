@@ -1,6 +1,6 @@
 [
     {
-        "idBebida": "1113",
+        "idBebida": "1",
         "nombreBebida": "Limonada",
         "categoria": "Bebidas refrescantes",
         "descripcion": "Limonada fresca y dulce, ideal para el verano.",
@@ -9,7 +9,7 @@
         "estatus": "Activo"
     },
     {
-        "idBebida": "1114",
+        "idBebida": "2",
         "nombreBebida": "Cerveza Artesanal",
         "categoria": "Alcohólicas",
         "descripcion": "Cerveza elaborada con ingredientes naturales, con un sabor único.",
@@ -18,7 +18,7 @@
         "estatus": "Activo"
     },
     {
-        "idBebida": "1115",
+        "idBebida": "3",
         "nombreBebida": "Mojito",
         "categoria": "Cocteles",
         "descripcion": "Refrescante coctel de ron, menta y limón.",
@@ -27,7 +27,7 @@
         "estatus": "Activo"
     },
     {
-        "idBebida": "1116",
+        "idBebida": "4",
         "nombreBebida": "Té Helado",
         "categoria": "Bebidas frías",
         "descripcion": "Té helado natural, perfecto para cualquier ocasión.",
@@ -36,7 +36,7 @@
         "estatus": "Activo"
     },
     {
-        "idBebida": "1117",
+        "idBebida": "5",
         "nombreBebida": "Batido de Fresa",
         "categoria": "Bebidas nutritivas",
         "descripcion": "Batido cremoso de fresas frescas y leche.",
@@ -45,7 +45,7 @@
         "estatus": "Activo"
     },
     {
-        "idBebida": "1118",
+        "idBebida": "6",
         "nombreBebida": "Agua Mineral",
         "categoria": "Bebidas simples",
         "descripcion": "Agua mineral con gas, refrescante y saludable.",
@@ -54,7 +54,7 @@
         "estatus": "Activo"
     },
     {
-        "idBebida": "1119",
+        "idBebida": "7",
         "nombreBebida": "Smoothie de Mango",
         "categoria": "Bebidas frutales",
         "descripcion": "Smoothie suave y dulce de mango tropical.",
@@ -63,7 +63,7 @@
         "estatus": "Activo"
     },
     {
-        "idBebida": "1120",
+        "idBebida": "8",
         "nombreBebida": "Café Frío",
         "categoria": "Bebidas calientes",
         "descripcion": "Café preparado frío, ideal para los amantes del café.",

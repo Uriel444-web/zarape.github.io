@@ -1,6 +1,6 @@
 [
     {
-        "idAlimento":"1112",
+        "idAlimento":"1",
         "nombreAlimento":"chilaquiles",
         "categoria":"platillos",
         "descripcion":"chilaquiles y ya",
@@ -9,7 +9,7 @@
         "estatus":"Activo"
     },
     {
-            "idAlimento": "1001",
+            "idAlimento": "2",
             "nombreAlimento": "Tacos al Pastor",
             "categoria": "Tacos",
             "descripcion": "Tacos con carne de cerdo marinada, cocida en un trompo y servida con piña, cebolla y cilantro.",
@@ -18,7 +18,7 @@
             "estatus": "Activo"
     },
     {
-            "idAlimento": "1002",
+            "idAlimento": "3",
             "nombreAlimento": "Enchiladas Verdes",
             "categoria": "Enchiladas",
             "descripcion": "Tortillas rellenas de pollo cubiertas con salsa verde, crema y queso fresco.",
@@ -27,7 +27,7 @@
             "estatus": "Activo"
     },
     {
-            "idAlimento": "1003",
+            "idAlimento": "4",
             "nombreAlimento": "Chiles en Nogada",
             "categoria": "Platillo Principal",
             "descripcion": "Chiles poblanos rellenos de picadillo cubiertos con una salsa de nuez y espolvoreados con granada.",
@@ -36,7 +36,7 @@
             "estatus": "Activo"
     },
     {
-            "idAlimento": "1004",
+            "idAlimento": "5",
             "nombreAlimento": "Tamales",
             "categoria": "Antojitos",
             "descripcion": "Masa de maíz rellena de carne, verduras o chiles, envuelta en hojas de maíz y cocida al vapor.",
@@ -45,7 +45,7 @@
             "estatus": "Activo"
     },
     {
-            "idAlimento": "1005",
+            "idAlimento": "6",
             "nombreAlimento": "Pozole",
             "categoria": "Sopa",
             "descripcion": "Sopa espesa hecha con maíz hominy, carne de cerdo o pollo, y acompañada de rábanos, lechuga y orégano.",

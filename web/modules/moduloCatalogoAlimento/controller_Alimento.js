@@ -88,12 +88,12 @@ function loadTabla() {
 
 function selectAlimento(index) {
     let alimento = alimentos[index];
-    document.getElementById("txtIdAlimento").value = alimento.idAlimento;
-    document.getElementById("txtNombreAlimento").value = alimento.nombreAlimento;
-    document.getElementById("txtCategoria").value = alimento.categoria;
-    document.getElementById("txtDescripcion").value = alimento.descripcion;
-    document.getElementById("txtFoto").value = alimento.foto;
-    document.getElementById("numPrecio").value = alimento.precio;
+    document.getElementById("txtIdAlimento").disabled=true;
+    document.getElementById("txtNombreAlimento").value = alimentos[index].nombreAlimento;
+    document.getElementById("txtCategoria").value = alimentos[index].categoria;
+    document.getElementById("txtDescripcion").value = alimentos[index].descripcion;
+    document.getElementById("txtFoto").value = alimentos[index].foto;
+    document.getElementById("numPrecio").value = alimentos[index].precio;
 
     document.getElementById("btnUpdateAlimento").classList.remove("disabled");
     document.getElementById("btnDeleteAlimento").classList.remove("disabled");
@@ -131,15 +131,15 @@ fetch("http://proyectozarape.test/web/modules/moduloCatalogoAlimento/data_Alimen
 }
 
 function updateAlimento(){
-    // let idAlimento, 
-        let nombreAlimento,
-        categoria,
-        descripcion,
-        foto,
-        precio,
-        estatus;
+    let idAlimento, 
+     nombreAlimento,
+    categoria,
+    descripcion,
+    foto,
+    precio,
+    estatus;
  
-    // idAlimento = document.getElementById("txtIdAlimento").value;
+    idAlimento = document.getElementById("txtIdAlimento").disabled=true;
     nombreAlimento = document.getElementById("txtNombreAlimento").value;
     categoria=document.getElementById("txtCategoria").value;
     descripcion=document.getElementById("txtDescripcion").value;
@@ -153,7 +153,7 @@ function updateAlimento(){
     alimento.descripcion=descripcion;
     alimento.foto=foto;
     alimento.precio=precio;
-    estatus="Activo"
+    alimento.estatus="Activo"
     
    alimentos[indexAlimentoSeleccionado] = alimento;
     cleanAlimento();
@@ -172,7 +172,7 @@ function searchAlimento(){
     let cuerpo = "";
     resultados.forEach(function(alimento){
         let registro =  
-                '<tr onclick="moduloCatalogoAlimento.selectAlimento('+ alimentos.indexOf(alimento) +');">'+
+                '<tr onclick="selectAlimento('+ alimentos.indexOf(alimento) +');">'+
                 '<td>' + alimento.nombreAlimento + '</td>' +
                 '<td>' + alimento.categoria +  '</td>' +
                 '<td>' + alimento.descripcion + '</td>' +
@@ -181,6 +181,6 @@ function searchAlimento(){
                 '<td>' + alimento.estatus + '</td></tr>' ; 
         cuerpo += registro;
     });
-    console.log(cuerpo);
+    // console.log(cuerpo);
     document.getElementById("tblAlimento").innerHTML = cuerpo;
 }
