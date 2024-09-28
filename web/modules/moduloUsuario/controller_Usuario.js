@@ -25,21 +25,6 @@ function addUsuario() {
     cleanUsuario(); // Descomentar si deseas limpiar los campos después de agregar
 }
 
-// function loadTabla() {
-//     let cuerpo = "";
-//     Usuarios.forEach(function (usuario, index) {
-//         let registro = `
-//             <tr onclick="moduloSucursal.selectSucursal(${index});">
-//                 <td>${usuario.idUsuario}</td>
-//                 <td>${usuario.nombreUsuario}</td>
-//             </tr>
-//         `;
-//         cuerpo += registro;
-//     });
-//     console.log(cuerpo);
-//     document.getElementById("tblUsuario").innerHTML = cuerpo;
-// }
-
 function loadTabla() {
     let cuerpo = "";
     Usuarios.forEach(function (usuario, index) {
@@ -75,7 +60,7 @@ function selectUsuario(index) {
     indexUsuarioSeleccionado = index;
 }
 
-fetch("http://proyectozarape.test/web/modules/moduloUsuario/data_Usuario.json")
+fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloUsuario/data_Usuario.json")
     .then(function(response) {
         return response.json();
     })
@@ -133,6 +118,6 @@ function searchUsuario(){
                 '<td>' + usuario.nombreUsuario + '</td>'; 
         cuerpo += registro;
     });
-    console.log(cuerpo);
+    // console.log(cuerpo);
     document.getElementById("tblUsuario").innerHTML = cuerpo;
 }
