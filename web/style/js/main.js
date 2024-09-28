@@ -34,7 +34,7 @@ async function cargarModuloUsuario(){
             )
             .then((html)=>{
                     document.getElementById("contenedorPrincipal").innerHTML = html;
-                    import ("http://proyectozarape.test/web/modules/moduloUsuario/controller_Usuario.js").then(
+                    import ("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloUsuario/controller_Usuario.js").then(
                             function(controller){
                                 moduloUsuario = controller;
                             }
