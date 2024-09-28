@@ -4,6 +4,7 @@ let Usuarios = []
 document.getElementById('btnAddUsuario').addEventListener('click', addUsuario);
 document.getElementById('btnCleanUsuario').addEventListener('click', cleanUsuario);
 document.getElementById('btnSearchUsuario').addEventListener('click', searchUsuario);
+document.getElementById('btnUpdateUsuario').addEventListener('click', updateUsuario);
 
 function addUsuario() {
     let idUsuario,
