@@ -4,14 +4,12 @@ let moduloBebida;
 let moduloAlimento;
 let moduloCombo;
 let moduloLogin;
-
 document.getElementById('btnSucursal').addEventListener('click',cargarModuloSucursal);
 document.getElementById('btnUsuario').addEventListener('click',cargarModuloUsuario);
 document.getElementById('btnBebida').addEventListener('click', cargarModuloBebida);
 document.getElementById('btnAlimento').addEventListener('click', cargarModuloAlimento);
 document.getElementById('btnCombo').addEventListener('click', cargarModuloCombo);
 document.getElementById('btnLogin').addEventListener('click', cargarLogin);
-
 async function cargarModuloSucursal(){
     fetch("http://proyectozarape.test/web/modules/moduloSucursal/view_Sucursal.html")
             .then( (response)=> {
@@ -28,9 +26,8 @@ async function cargarModuloSucursal(){
                 }
             ).catch((err)=>console.log(err));
 }
- 
 async function cargarModuloUsuario(){
-    fetch("http://proyectozarape.test/web/modules/moduloUsuario/view_Usuario.html")
+    fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloUsuario/view_Usuario.html")
             .then( (response)=>{
                     return response.text();
                 }
@@ -45,7 +42,6 @@ async function cargarModuloUsuario(){
                 }
             ).catch((err)=>console.log(err));
 }
-
 async function cargarModuloBebida(){
     fetch("http://proyectozarape.test/web/modules/moduloCatalogoBebida/view_Bebida.html")
             .then( (response)=>{
@@ -62,7 +58,6 @@ async function cargarModuloBebida(){
                 }
             ).catch((err)=>console.log(err));
 }
-
 async function cargarModuloAlimento(){
     fetch("http://proyectozarape.test/web/modules/moduloCatalogoAlimento/view_Alimento.html")
             .then( (response)=>{
@@ -79,7 +74,6 @@ async function cargarModuloAlimento(){
                 }
             ).catch((err)=>console.log(err));
 }
-
 async function cargarModuloCombo(){
     fetch("http://proyectozarape.test/web/modules/moduloDetalleCombo/view_Combo.html")
             .then( (response)=>{
@@ -96,7 +90,6 @@ async function cargarModuloCombo(){
                 }
             ).catch((err)=>console.log(err));
 }
-
 async function cargarLogin(){
     fetch("http://proyectozarape.test/web/modules/moduloLogin/view_Login.html")
             .then( (response)=>{
