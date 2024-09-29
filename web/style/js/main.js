@@ -11,14 +11,14 @@ document.getElementById('btnAlimento').addEventListener('click', cargarModuloAli
 document.getElementById('btnCombo').addEventListener('click', cargarModuloCombo);
 document.getElementById('btnLogin').addEventListener('click', cargarLogin);
 async function cargarModuloSucursal(){
-    fetch("http://proyectozarape.test/web/modules/moduloSucursal/view_Sucursal.html")
+    fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloSucursal/view_Sucursal.html")
             .then( (response)=> {
                     return response.text();
                 }
             )
             .then((html)=>{
                     document.getElementById("contenedorPrincipal").innerHTML = html;
-                    import ("http://proyectozarape.test/web/modules/moduloSucursal/controller_Sucursal.js").then(
+                    import ("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloSucursal/controller_Sucursal.js").then(
                             function(controller){
                                 moduloSucursal = controller;
                             }
@@ -43,14 +43,14 @@ async function cargarModuloUsuario(){
             ).catch((err)=>console.log(err));
 }
 async function cargarModuloBebida(){
-    fetch("http://proyectozarape.test/web/modules/moduloCatalogoBebida/view_Bebida.html")
+    fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloCatalogoBebida/view_Bebida.html")
             .then( (response)=>{
                     return response.text();
                 }
             )
             .then((html)=>{
                     document.getElementById("contenedorPrincipal").innerHTML = html;
-                    import ("http://proyectozarape.test/web/modules/moduloCatalogoBebida/controller_Bebida.js").then(
+                    import ("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloCatalogoBebida/controller_Bebida.js").then(
                             function(controller){
                                 moduloBebida = controller;
                             }
@@ -59,14 +59,14 @@ async function cargarModuloBebida(){
             ).catch((err)=>console.log(err));
 }
 async function cargarModuloAlimento(){
-    fetch("http://proyectozarape.test/web/modules/moduloCatalogoAlimento/view_Alimento.html")
+    fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloCatalogoAlimento/view_Alimento.html")
             .then( (response)=>{
                     return response.text();
                 }
             )
             .then((html)=>{
                     document.getElementById("contenedorPrincipal").innerHTML = html;
-                    import ("http://proyectozarape.test/web/modules/moduloCatalogoAlimento/controller_Alimento.js").then(
+                    import ("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloCatalogoAlimento/controller_Alimento.js").then(
                             function(controller){
                                 moduloAlimento = controller;
                             }
@@ -75,14 +75,14 @@ async function cargarModuloAlimento(){
             ).catch((err)=>console.log(err));
 }
 async function cargarModuloCombo(){
-    fetch("http://proyectozarape.test/web/modules/moduloDetalleCombo/view_Combo.html")
+    fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloDetalleCombo/view_Combo.html")
             .then( (response)=>{
                     return response.text();
                 }
             )
             .then((html)=>{
                     document.getElementById("contenedorPrincipal").innerHTML = html;
-                    import ("http://proyectozarape.test/web/modules/moduloDetalleCombo/controller_Combo.js").then(
+                    import ("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloDetalleCombo/controller_Combo.js").then(
                             function(controller){
                                 moduloCombo = controller;
                             }
@@ -91,14 +91,14 @@ async function cargarModuloCombo(){
             ).catch((err)=>console.log(err));
 }
 async function cargarLogin(){
-    fetch("http://proyectozarape.test/web/modules/moduloLogin/view_Login.html")
+    fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloLogin/view_Login.html")
             .then( (response)=>{
                     return response.text();
                 }
             )
             .then((html)=>{
                     document.getElementById("contenedorPrincipal").innerHTML = html;
-                    import ("http://proyectozarape.test/web/modules/moduloLogin/controller_Login.js").then(
+                    import ("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloLogin/controller_Login.js").then(
                             function(controller){
                                 moduloLogin = controller;
                             }
