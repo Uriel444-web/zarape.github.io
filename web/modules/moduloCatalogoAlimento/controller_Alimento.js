@@ -102,7 +102,7 @@ function selectAlimento(index) {
     indexAlimentoSeleccionado = index;
 }
 
-fetch("http://proyectozarape.test/web/modules/moduloCatalogoAlimento/data_Alimento.json")
+fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloCatalogoAlimento/data_Alimento.json")
     .then(function(response) {
         return response.json();
     })
