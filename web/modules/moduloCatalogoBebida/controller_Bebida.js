@@ -101,7 +101,7 @@ function selectBebida(index) {
     indexBebidaSeleccionado = index;
 }
 
-fetch("http://proyectozarape.test/web/modules/moduloCatalogoBebida/data_Bebida.json")
+fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloCatalogoBebida/data_Bebida.json")
     .then(function(response) {
         return response.json();
     })
