@@ -84,7 +84,7 @@ export function selectCombo(index) {
     indexComboSeleccionado = index;
 }
 
-fetch("http://proyectozarape.test/web/modules/moduloDetalleCombo/data_Combo.json")
+fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloDetalleCombo/data_Combo.json")
     .then(function(response) {
         return response.json();
     })
