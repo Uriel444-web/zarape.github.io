@@ -95,7 +95,7 @@ export function selectSucursal(index) {
     indexSucursalSeleccionado = index;
 }
 
-fetch("http://proyectozarape.test/web/modules/moduloSucursal/data_Sucursal.json")
+fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloSucursal/data_Sucursal.json")
     .then(function(response) {
         return response.json();
     })
