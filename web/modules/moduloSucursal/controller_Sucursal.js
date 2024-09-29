@@ -78,7 +78,7 @@ function loadTabla() {
 export function selectSucursal(index) {
     let sucursal = sucursales[index];
     document.getElementById("txtImg").value = sucursal.foto;
-    document.getElementById("txtNumUnico").value = sucursales[index].numero_unico_sucursal;
+    document.getElementById("txtNumUnico").disabled=true = sucursales[index].numero_unico_sucursal;
     document.getElementById("txtNombre").value = sucursales[index].nombre;
     document.getElementById("txtCalleYNum").value = sucursales[index].calleYNum;
     document.getElementById("txtColonia").value = sucursales[index].colonia;
@@ -137,7 +137,7 @@ function updateSucursal(){
         pagWeb;
 
         foto = document.getElementById("txtImg").value;
-    numero_unico_cliente = document.getElementById("txtNumUnico").value;
+    numero_unico_cliente = document.getElementById("txtNumUnico").disabled=true;
     nombre = document.getElementById("txtNombre").value;
     calleYNum = document.getElementById("txtCalleYNum").value;
     colonia = document.getElementById("txtColonia").value;
