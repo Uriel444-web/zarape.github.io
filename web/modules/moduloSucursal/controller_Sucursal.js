@@ -75,7 +75,7 @@ function loadTabla() {
     });
 }
 
-export function selectSucursal(index) {
+function selectSucursal(index) {
     let sucursal = sucursales[index];
     document.getElementById("txtImg").value = sucursales[index].foto;
     document.getElementById("txtNumUnico").disabled=true;
