@@ -78,7 +78,7 @@ function selectBebida(index) {
 
     document.getElementById("btnUpdateBebida").classList.remove("disabled");
     document.getElementById("btnDeleteBebida").classList.remove("disabled");
-    document.getElementById("btnAddBbebida").classList.add("disabled");
+    document.getElementById("btnAddBebida").classList.add("disabled");
 
     indexBebidaSeleccionado = index;
 }
