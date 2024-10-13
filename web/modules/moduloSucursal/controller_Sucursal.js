@@ -84,7 +84,7 @@ export function selectSucursal(index) {
     document.getElementById("txtCalleYNum").value = sucursales[index].calleYNum;
     document.getElementById("txtColonia").value = sucursales[index].colonia;
     document.getElementById("txtTelefono").value = sucursales[index].telefono;
-    document.getElementById("txtGPS").value = sucursales[index].gps;
+    document.getElementById("txtGPS").value = sucursales[index].GPS;
     document.getElementById("txtHorario").value = sucursales[index].horario;
     document.getElementById("txtPagWeb").value = sucursales[index].pagWeb;
     
