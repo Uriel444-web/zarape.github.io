@@ -78,7 +78,8 @@ function loadTabla() {
 export function selectSucursal(index) {
     let sucursal = sucursales[index];
     document.getElementById("txtImg").value = sucursal.foto;
-    document.getElementById("txtNumUnico").disabled=true = sucursales[index].numero_unico_sucursal;
+    document.getElementById("txtNumUnico").disabled=true;
+    document.getElementById("txtIdAlimento").value = sucursales[index].numero_unico_sucursal;
     document.getElementById("txtNombre").value = sucursales[index].nombre;
     document.getElementById("txtCalleYNum").value = sucursales[index].calleYNum;
     document.getElementById("txtColonia").value = sucursales[index].colonia;
