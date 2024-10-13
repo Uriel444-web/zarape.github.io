@@ -129,7 +129,7 @@ function updateBebida(){
     
 
     let bebida = {};
-    bebida.idBebida = "01";
+    // bebida.idBebida = "01";
     bebida.nombreBebida = nombreBebida;
     bebida.categoria=categoria;
     bebida.descripcion=descripcion;
