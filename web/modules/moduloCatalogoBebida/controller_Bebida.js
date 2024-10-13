@@ -40,25 +40,6 @@ function addBebida() {
     cleanBebida(); 
 }
 
-// function loadTabla() {
-//     let cuerpo = "";
-//     bebidas.forEach(function (bebida, index) {
-//         let registro = `
-//             <tr onclick="moduloCatalogoAlimento.selectBebida(${index});">
-//                 <td>${bebida.nombreBebida}</td>
-//                 <td>${bebida.categoria}</td>
-//                 <td>${bebida.descripcion}</td>
-//                 <td>${bebida.foto}</td>
-//                 <td>${bebida.precio}</td>
-//                 <td>${bebida.estatus}</td>
-//             </tr>
-//         `;
-//         cuerpo += registro;
-//     });
-//     console.log(cuerpo);
-//     document.getElementById("tblBebida").innerHTML = cuerpo;
-// }
-
 function loadTabla() {
     let cuerpo = "";
     bebidas.forEach(function (bebida, index) {
