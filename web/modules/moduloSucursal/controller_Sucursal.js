@@ -128,7 +128,7 @@ fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloSucursa
 
 function updateSucursal(){
     let foto,
-     numero_unico_cliente, 
+     numero_unico_sucursal, 
         nombre,
         calleYNum,
         colonia,
@@ -138,7 +138,7 @@ function updateSucursal(){
         pagWeb;
 
         foto = document.getElementById("txtImg").value;
-    numero_unico_cliente = document.getElementById("txtNumUnico").disabled=true;
+    numero_unico_sucursal = document.getElementById("txtNumUnico").disabled=true;
     nombre = document.getElementById("txtNombre").value;
     calleYNum = document.getElementById("txtCalleYNum").value;
     colonia = document.getElementById("txtColonia").value;
@@ -148,7 +148,7 @@ function updateSucursal(){
     pagWeb = document.getElementById("txtPagWeb").value;
     let sucursal = {};
     sucursal.foto = foto;
-    sucursal.numero_unico_cliente = numero_unico_cliente;
+    sucursal.numero_unico_sucursal = numero_unico_sucursal;
     sucursal.nombre = nombre;
     sucursal.calleYNum = calleYNum;
     sucursal.Colonia = colonia;
@@ -168,7 +168,7 @@ function deleteSucursal(){
     loadTabla();
 }
 
-export function searchSucursal(){
+function searchSucursal(){
     let filtro = document.getElementById("txtBusquedaSucursal").value;
     let resultados = sucursales.filter(element => element.nombre === filtro);
     let cuerpo = "";
