@@ -68,12 +68,13 @@ function loadTabla() {
 
 function selectBebida(index) {
     let bebida = bebidas[index];
-    document.getElementById("txtIdBebida").value = bebida.numero_unico_bebida;
-    document.getElementById("txtNombreBebida").value = bebida.nombreBebida;
-    document.getElementById("txtCategoria").value = bebida.categoria;
-    document.getElementById("txtDescripcion").value = bebida.descripcion;
-    document.getElementById("txtFoto").value = bebida.foto;
-    document.getElementById("numPrecio").value = bebida.precio;
+    document.getElementById("txtIdBebida").disabled=true;
+    document.getElementById("txtIdBebida").value = bebidas[index].idBebida;
+    document.getElementById("txtNombreBebida").value = bebidas[index].nombreBebida;
+    document.getElementById("txtCategoria").value = bebidas[index].categoria;
+    document.getElementById("txtDescripcion").value = bebidas[index].descripcion;
+    document.getElementById("txtFoto").value = bebidas[index].foto;
+    document.getElementById("numPrecio").value = bebidas[index].precio;
 
     document.getElementById("btnUpdateBebida").classList.remove("disabled");
     document.getElementById("btnDeleteBebida").classList.remove("disabled");
@@ -125,6 +126,7 @@ function updateBebida(){
     descripcion=document.getElementById("txtDescripcion").value;
     foto=document.getElementById("txtFoto").value;
     precio=document.getElementById("numPrecio").value;
+    
 
     let bebida = {};
     bebida.idBebida = "01";
@@ -133,6 +135,7 @@ function updateBebida(){
     bebida.descripcion=descripcion;
     bebida.foto=foto;
     bebida.precio=precio;
+    bebida.estatus="Activo";
     
    bebidas[indexBebidaSeleccionado] = bebida;
     cleanBebida();
