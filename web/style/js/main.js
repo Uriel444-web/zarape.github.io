@@ -43,7 +43,7 @@ async function cargarModuloUsuario(){
             ).catch((err)=>console.log(err));
 }
 async function cargarModuloBebida(){
-    fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloCatalogoBebida/view_Bebida.html")
+    fetch("https://uriel444-web.github.io/zarape.github.io/web/modules/moduloCatalogoBebida/view_bebida.html")
             .then( (response)=>{
                     return response.text();
                 }
