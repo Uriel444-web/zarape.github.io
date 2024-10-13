@@ -73,6 +73,7 @@ export function selectCombo(index) {
     document.getElementById("txtIdAlimento-Combo").value = combos[index].idAlimento;
     document.getElementById("txtIdBebida-Combo").value = combos[index].idBebida;
     document.getElementById("txtIdCombo").disabled=true;
+    document.getElementById("txtIdCombo").value = combos[index].idCombo;
     document.getElementById("txtNombreCombo").value = combos[index].nombreCombo;
     document.getElementById("txtDescripcionCombo").value = combos[index].descripcion;
     document.getElementById("numPrecioCombo").value = combos[index].precio;
@@ -129,7 +130,7 @@ function updateCombo(){
     precio=document.getElementById("numPrecioCombo").value;
 
     let combo = {};
-    combo.idAlimento = idAlimento;
+    // combo.idAlimento = idAlimento;
     combo.idBebida = idBebida;
     combo.idCombo = idCombo;
     combo.nombreCombo = nombreCombo;
