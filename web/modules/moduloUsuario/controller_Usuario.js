@@ -51,6 +51,7 @@ function loadTabla() {
 function selectUsuario(index) {
     let usuario = Usuarios[index];
     document.getElementById("txtIdUsuario").disabled=true;
+    document.getElementById("txtIdUsuario").value = Usuarios[index].idUsuario;
     document.getElementById("txtNombreUsuario").value = Usuarios[index].nombreUsuario;
     document.getElementById("txtContrasena").value = Usuarios[index].contrasena;
 
