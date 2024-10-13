@@ -56,7 +56,7 @@ function loadTabla() {
                  <td>${sucursal.nombre}</td>
                  <td>${sucursal.calleYNum +  ' '+ sucursal.colonia}</td>
                  <td>${sucursal.telefono}</td>
-                 <td>${sucursal.gps}</td>
+                 <td>${sucursal.GPS}</td>
                  <td>${sucursal.horario}</td>
                  <td>${sucursal.pagWeb}</td>
                  <td>${sucursal.estatus}</td>
