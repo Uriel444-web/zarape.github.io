@@ -68,7 +68,7 @@ function loadTabla() {
     });
 }
 
-export function selectCombo(index) {
+function selectCombo(index) {
     let combo = combos[index];
     document.getElementById("txtIdAlimento-Combo").value = combos[index].idAlimento;
     document.getElementById("txtIdBebida-Combo").value = combos[index].idBebida;
@@ -149,7 +149,7 @@ function deleteCombo(){
     loadTabla();
 }
 
-export function searchCombo(){
+function searchCombo(){
     let filtro = document.getElementById("txtBusquedaCombo").value;
     let resultados = combos.filter(element => element.nombreCombo === filtro);
     let cuerpo = "";
